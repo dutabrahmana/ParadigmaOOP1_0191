@@ -1,6 +1,10 @@
-#include <iostream>;
-#include <string>;
+#include <iostream>
+#include <string>
 using namespace std;
+
+class mahasiswa {
+	private
+};
 
 int main()
 {
