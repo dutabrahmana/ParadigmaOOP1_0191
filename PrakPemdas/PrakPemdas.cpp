@@ -11,7 +11,7 @@ public:
 	mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama), nilai(pNilai) {
 
 	}
-	mahasiswa() {
+	~mahasiswa(){
 		cout << "id		= " << id << endl;
 		cout << "nama		= " << nama << endl;
 		cout << "nilai		= " << nilai << endl;
